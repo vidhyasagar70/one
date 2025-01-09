@@ -1,18 +1,8 @@
-/* Background image styles */
 .bg-img {
-  background-image: url('/public/images/Header.png'); /* Use the correct path */
-  background-size: cover; 
-  background-position: center; 
-  position: relative; 
-  width: 100vw; 
+  background-image: url('/public/images/Header.png'); /* Assuming placed in the public/images folder */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100vw;
   height: 100vh;
-}
-
-/* Hero image styles */
-.hero-img {
-  position: absolute;
-  bottom: 0; 
-  right: 0; 
-  width: 100px; 
-  height: auto;
 }

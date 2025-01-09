@@ -1,0 +1,17 @@
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust columns dynamically */
+  gap: 15px; /* Spacing between images */
+  padding: 15px; /* Margin around the container */
+  width: calc(100% - 30px); /* Account for padding */
+  height: calc(100vh - 30px); /* Ensure images fit within viewport height */
+  box-sizing: border-box; /* Include padding in dimensions */
+  overflow-y: auto; /* Enable scrolling if content overflows vertically */
+}
+
+.image-item {
+  width: 100%; /* Fill grid column */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Resize image to cover its container */
+  border-radius: 5px; /* Optional: Rounded corners */
+}

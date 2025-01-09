@@ -2,11 +2,10 @@ import React from 'react';
 import './Herosection.css';
 
 const HeroSection = () => {
-  return (
-    <div className="bg-img">
-      <img src="/images/hero.png" alt="Hero" className="hero-img" />
-    </div>
-  );
+  return <div >
+      <img src="/images/header.png"/>
+
+  </div>;
 };
 
 export default HeroSection;
